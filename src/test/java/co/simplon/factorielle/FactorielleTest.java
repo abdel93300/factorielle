@@ -30,6 +30,7 @@ public class FactorielleTest {
 	//Then	
 		assertEquals(1L,resultat);
 	}
+	@Ignore
 	@Test
 	public void factorielle_de_19_doit_donner_le_resultat_121645100408832000() {
 	//Given

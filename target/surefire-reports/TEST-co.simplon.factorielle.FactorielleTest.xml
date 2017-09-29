@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="1" name="co.simplon.factorielle.FactorielleTest" time="0.077" errors="1" skipped="1">
+<testsuite tests="7" failures="1" name="co.simplon.factorielle.FactorielleTest" time="0.099" errors="1" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -e test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="fr"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,11 +63,11 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_1_doit_donner_le_resultat_1" time="0.059">
+  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_1_doit_donner_le_resultat_1" time="0.082">
     <skipped/>
   </testcase>
-  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_Moins_1_doit_genere_une_Exception" time="0.002"/>
-  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_4_doit_donner_le_resultat_6b" time="0.01">
+  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_Moins_1_doit_genere_une_Exception" time="0.003"/>
+  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_4_doit_donner_le_resultat_6b" time="0.008">
     <failure message="Le factorielle de 3 doit être 6" type="java.lang.AssertionError">java.lang.AssertionError: Le factorielle de 3 doit être 6
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -103,9 +103,9 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_3_doit_donner_le_resultat_6" time="0"/>
+  <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_3_doit_donner_le_resultat_6" time="0.001"/>
   <testcase classname="co.simplon.factorielle.FactorielleTest" name="factorielle_de_0_doit_donner_le_resultat_1" time="0"/>
-  <testcase classname="co.simplon.factorielle.FactorielleTest" name="test_timeout" time="0.006">
+  <testcase classname="co.simplon.factorielle.FactorielleTest" name="test_timeout" time="0.005">
     <error message="test timed out after 1 milliseconds" type="org.junit.runners.model.TestTimedOutException">org.junit.runners.model.TestTimedOutException: test timed out after 1 milliseconds
 	at co.simplon.factorielle.FactorielleTest.test_timeout(FactorielleTest.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

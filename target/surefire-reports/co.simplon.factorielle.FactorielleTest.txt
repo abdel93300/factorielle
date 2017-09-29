@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: co.simplon.factorielle.FactorielleTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 1, Skipped: 1, Time elapsed: 0.08 sec <<< FAILURE!
-factorielle_de_4_doit_donner_le_resultat_6b(co.simplon.factorielle.FactorielleTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+Tests run: 7, Failures: 1, Errors: 1, Skipped: 1, Time elapsed: 0.108 sec <<< FAILURE!
+factorielle_de_4_doit_donner_le_resultat_6b(co.simplon.factorielle.FactorielleTest)  Time elapsed: 0.008 sec  <<< FAILURE!
 java.lang.AssertionError: Le factorielle de 3 doit être 6
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -37,7 +37,7 @@ java.lang.AssertionError: Le factorielle de 3 doit être 6
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-test_timeout(co.simplon.factorielle.FactorielleTest)  Time elapsed: 0.006 sec  <<< ERROR!
+test_timeout(co.simplon.factorielle.FactorielleTest)  Time elapsed: 0.005 sec  <<< ERROR!
 org.junit.runners.model.TestTimedOutException: test timed out after 1 milliseconds
 	at co.simplon.factorielle.FactorielleTest.test_timeout(FactorielleTest.java:84)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
