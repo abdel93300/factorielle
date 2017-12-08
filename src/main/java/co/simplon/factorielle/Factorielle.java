@@ -17,8 +17,7 @@ public class Factorielle
     		} else if (n < 0) {
     			throw new IllegalArgumentException();
     		}
-    		    	
-               		
+    		               		
     		return n;
     }
 
